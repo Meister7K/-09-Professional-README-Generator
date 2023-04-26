@@ -62,15 +62,12 @@ function generateMarkdown(data) {
   - ${data.tests}
 
   ## ${data.tableOfContents[6]}
-  - ${data.questions}
+  reach out below 
+- [github.com/${data.git}](github.com/${data.git})
+- ${data.email}
 
   ## ${data.tableOfContents[7]}
  - ${data.cited}
-
- ## Contact
-  - github.com/${data.git}
-  - ${data.email}
-
 `;
 }
 
