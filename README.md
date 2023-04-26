@@ -25,7 +25,7 @@
   - run 'node index.JS' 
   - answer prompts and create README.
 
-  ### [video](./Video/Recording%202023-04-26%20160143.mp4)
+  ### [video](./example.mp4)
 
   ## License
   - MIT
