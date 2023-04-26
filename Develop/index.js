@@ -28,8 +28,75 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'please enter your description.',
+        message: 'If you selected Description, please enter your description. If not, click enter.',
         name: 'description'
+    },
+    {
+        type: 'input',
+        message: 'If you selected Installation, please enter your Installation directions. If not, click enter.',
+        name: 'installation'
+    },
+    {
+        type: 'input',
+        message: 'If you selected Usage, please enter your Usage directions. If not, click enter.',
+        name: 'usage'
+    },
+    {
+        type: 'input',
+        message: 'If you shave an image to share, please enter your URL. If not, click enter.',
+        name: 'image'
+    },
+    {
+        type: 'list',
+        message: 'Select your License',
+        name: 'license',
+        choices: [
+            'Apache',
+            'Boost',
+            'BSD',
+            'CCO',
+            'Eclipse',
+            'GNU',
+            'IBM',
+            'ISC',
+            'MIT',
+            'Mozilla',
+            'ODC',
+            'Perl'
+        ],
+        filter(value){
+            return value;
+        }
+    },
+    {
+        type: 'input',
+        message: 'If you selected Contributions, please add your contributors. If not, click enter.',
+        name: 'contributions'
+    },
+    {
+        type: 'input',
+        message: 'If you selected Tests, please enter your testings directions. If not, click enter.',
+        name: 'tests'
+    },
+    {
+        type: 'input',
+        message: 'If you selected Questions, please ask them here. If not, click enter.',
+        name: 'questions'
+    },
+    {
+        type: 'input',
+        message: 'If you selected Cited, please enter your cited information here. If not, click enter.',
+        name: 'cited'
+    },
+    {
+        type: 'input',
+        message: 'What is your Github username?',
+        name: 'git'
+    },
+    {
+        type: 'input',
+        message: 'What is your email?',
+        name: 'email'
     }
 ];
 

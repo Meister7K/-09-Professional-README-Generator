@@ -1,4 +1,5 @@
-# 123
+# Readme Generator
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Table of Contents
   - [Description](#Description)
@@ -9,24 +10,33 @@
   - [Tests](#Tests)
   - [Questions](#Questions)
   - [Cited](#Cited)
-  - [undefined](#undefined)
 
   ## Description
+    - A brief description
 
   ## Installation
+  - a brief install description
 
   ## Usage
+  - a brief usage description
 
   ## License
+  - GNU
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Contributions
+  - na
 
   ## Tests
+  - na
 
   ## Questions
+  - na
 
   ## Cited
+ - cite
 
-  ## undefined
- 
+ ## Contact
+  - github.com/Meister7K
+  - 123@abc.com
 
